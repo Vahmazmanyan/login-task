@@ -1,0 +1,28 @@
+@import "../../sass/variables.scss";
+.wrapper {
+  position: relative;
+}
+.input {
+  width: 100%;
+  border: 0.12rem solid $color-gray;
+  border-radius: 0.6rem;
+  padding: 0 3rem 0 1rem;
+  height: 4.8rem;
+  &::placeholder {
+    font-size: 1.5rem;
+    color: $color-gray;
+  }
+  outline: none;
+}
+.password-toggle-icon {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.input-wrapper {
+  width: 100%;
+  position: relative;
+}

@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  font-family: "Basis-Grotesque-Pro";
+}
+#root {
+  height: 100%;
+  width: 100%;
+  margin-top: 18rem;
+  display: flex;
+  justify-content: center;
+}
+html {
+  font-size: 62.5%; // ~10px
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: $color-white;
+}

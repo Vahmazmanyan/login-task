@@ -1,0 +1,55 @@
+@import "../../sass/variables.scss";
+@import "../../sass/typography.scss";
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.signin-options {
+  width: 100%;
+  display: flex;
+  gap: 1.6rem;
+}
+.lines {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: $color-gray;
+  font-size: 1.2rem;
+}
+
+.sign-up {
+  font-size: 1.5rem;
+  a {
+    color: $color-blue;
+    text-decoration: none;
+  }
+}
+.forgot {
+  text-decoration: none;
+  font-size: 1.4rem;
+  align-self: flex-end;
+  color: $color-blue;
+}
+.password-toggle-icon {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2.5rem;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle-icon i {
+  font-size: 18px;
+  line-height: 1;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.password-toggle-icon i:hover {
+  color: #000;
+}

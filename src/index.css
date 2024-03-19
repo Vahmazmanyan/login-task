@@ -1,0 +1,12 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+@font-face {
+  font-family: "Basis-Grotesque-Pro";
+  src: local("Basis-Grotesque-Pro"),
+   url("./fonts/Basis-Grotesque-Pro/BasisGrotesquePro-Regular.ttf") format("truetype");
+ }
+ 

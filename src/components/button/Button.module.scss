@@ -1,0 +1,23 @@
+@import "../../sass/variables.scss";
+
+.button {
+  background-color: $color-blue;
+  border-radius: 8px;
+  width: 100%;
+  border: none;
+  padding: 13px;
+  cursor: pointer;
+}
+.button-text {
+  color: $color-white;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+.cancel-button {
+  background-color: $color-white;
+  border: 1px solid $color-gray;
+  .button-text {
+    color: $text-color-primary;
+  }
+}
