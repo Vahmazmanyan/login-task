@@ -39,7 +39,7 @@ const ResetPassword = () => {
   };
   return (
     <Layout>
-      <img src="../../../public/Logo.png" alt="Qencode logo" />
+      <img src="/Logo.png" alt="Qencode logo" />
       {result || (
         <form
           onSubmit={handleSubmit(onSubmit)}

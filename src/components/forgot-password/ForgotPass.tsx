@@ -38,7 +38,7 @@ const ForgotPass = () => {
   };
   return (
     <Layout>
-      <img src="../../../public/Logo.png" alt="Qencode logo" />
+      <img src="/Logo.png" alt="Qencode logo" />
       <form onSubmit={handleSubmit(onSubmit)} className={styles["forgot-form"]}>
         <h2 className="title">Forgot Password?</h2>
         <div className={styles["input-wrapper"]}>
