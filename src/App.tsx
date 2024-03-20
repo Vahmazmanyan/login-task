@@ -8,11 +8,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="" element={<Navigate to="/login" />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/forgot-password" element={<ForgotPass />} />
-        <Route path="/reset-password" element={<ResetPassword />} />
-        <Route path="/logged-in" element={<LoggedIn />} />
+        <Route path="" element={<Navigate to="login" />} />
+        <Route path="login" element={<Login />} />
+        <Route path="forgot-password" element={<ForgotPass />} />
+        <Route path="reset-password" element={<ResetPassword />} />
+        <Route path="logged-in" element={<LoggedIn />} />
       </Routes>
     </BrowserRouter>
   );

@@ -10,6 +10,7 @@ import Layout from "../layout/Layout";
 import GoogleButton from "../googleLogin/GoogleLoginButton";
 import { useNavigate } from "react-router";
 import { EMAIL_REGEX, PWD_REGEX } from "../../utils/shared";
+import GithubLogin from "../githubLogin/GithubLogin";
 
 const Login = () => {
   const [errorMsg, SetErrorMsg] = useState("");
@@ -61,7 +62,8 @@ const Login = () => {
         <h2 className={styles.title}>Log in to your account</h2>
         <div className={styles["signin-options"]}>
           <GoogleButton />
-          <Button onClick={() => navigate("/logged-in")}>Github</Button>
+          <GithubLogin/>
+          {/* <Button onClick={() => navigate("/logged-in")}>Github</Button> */}
         </div>
         <div className={styles.lines}>
           <img src="/Line.png" alt="line" />
